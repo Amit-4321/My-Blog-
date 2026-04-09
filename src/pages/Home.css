@@ -1,0 +1,167 @@
+.home {
+    padding: 40px;
+  }
+  
+  /* TOP */
+  .home-top {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 30px;
+    align-items: center;
+  }
+  
+  /* FILTER */
+  .filters span {
+    margin-right: 20px;
+    cursor: pointer;
+    color: #555;
+  }
+  
+  .filters .active {
+    color: #e91e63;
+    font-weight: bold;
+  }
+  
+  /* SEARCH */
+  .search {
+    padding: 8px 15px;
+    border-radius: 20px;
+    border: 1px solid #ccc;
+  }
+  
+  /* CARD */
+  .card {
+    display: flex;
+    margin-bottom: 30px;
+    border: 1px solid #eee;
+    border-radius: 10px;
+    overflow: hidden;
+    transition: 0.3s;
+  }
+  
+  .card:hover {
+    box-shadow: 0 5px 20px rgba(0,0,0,0.1);
+  }
+  
+  /* IMG */
+  .card img {
+    width: 350px;
+    height: 250px;
+    object-fit: cover;
+  }
+  
+  /* CONTENT */
+  .card-content {
+    padding: 20px;
+    flex: 1;
+  }
+  
+  /* TOP INFO */
+  .card-top {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .user {
+    display: flex;
+    gap: 8px;
+    align-items: center;
+    color: #555;
+  }
+  
+  .date {
+    font-size: 12px;
+  }
+  
+  /* DOTS */
+  .dots-wrapper {
+    position: relative;
+  }
+  
+  .dots {
+    cursor: pointer;
+  }
+  
+  /* DROPDOWN */
+  .dropdown {
+    position: absolute;
+    right: 0;
+    top: 30px;
+    background: white;
+    border: 1px solid #eee;
+    border-radius: 10px;
+    width: 180px;
+    box-shadow: 0 10px 25px rgba(0,0,0,0.1);
+    overflow: hidden;
+    z-index: 10;
+  }
+  
+  /* SHARE ITEMS */
+  .share-item {
+    padding: 12px 15px;
+    cursor: pointer;
+    font-size: 14px;
+    transition: 0.3s;
+  }
+  
+  .share-item:hover {
+    background: #f5f5f5;
+  }
+  /* TITLE */
+  .card-content h2 {
+    margin: 10px 0;
+  }
+  
+  /* DESC */
+  .card-content p {
+    color: #777;
+  }
+  
+  /* BOTTOM */
+  .card-bottom {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+    color: #777;
+  }
+  
+  .card-bottom span {
+    cursor: pointer;
+  }
+  
+  /* LIKE */
+  .liked {
+    color: red;
+  }
+  
+  /* EMPTY */
+  .no-data {
+    text-align: center;
+    color: gray;
+  }
+  /* TEXT LIMIT (3 lines) */
+.clamp-text {
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+  }
+  
+  /* FULL TEXT */
+  .full-text {
+    display: block;
+  }
+  
+  /* READ MORE BUTTON */
+  .read-more {
+    color: #e91e63;
+    cursor: pointer;
+    font-size: 14px;
+    margin-top: 5px;
+    display: inline-block;
+  }
+  
+  .read-more:hover {
+    text-decoration: underline;
+  }

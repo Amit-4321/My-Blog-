@@ -1,0 +1,101 @@
+.contact {
+  padding: 50px;
+}
+
+/* ===== TOP SECTION ===== */
+.contact-top {
+  display: flex;
+  gap: 40px;
+  align-items: stretch; /* 🔥 equal height */
+}
+
+/* LEFT IMAGE */
+.contact-left {
+  flex: 1;
+}
+
+.contact-left img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 15px;
+}
+
+/* RIGHT CONTENT */
+.contact-right {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.contact-right h1 {
+  font-size: 36px;
+  color: #e91e63;
+  margin-bottom: 15px;
+}
+
+.contact-right p {
+  color: #666;
+  line-height: 1.6;
+  margin-bottom: 10px;
+}
+
+/* ===== LINE ===== */
+.line {
+  height: 2px;
+  background: #e91e63;
+  margin: 40px 0;
+}
+
+/* ===== FORM SECTION ===== */
+.form-section {
+  text-align: center;
+}
+
+.form-section h2 {
+  margin-bottom: 20px;
+}
+
+/* FORM */
+.contact-form {
+  max-width: 600px;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  gap: 18px;
+}
+
+.contact-form input,
+.contact-form textarea {
+  padding: 12px;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+}
+
+.contact-form button {
+  padding: 14px;
+  border: none;
+  border-radius: 10px;
+  background: #e91e63;
+  color: white;
+  cursor: pointer;
+  font-size: 16px;
+  transition: 0.3s;
+}
+
+.contact-form button:hover {
+  background: #c2185b;
+  transform: translateY(-2px);
+}
+
+/* ===== RESPONSIVE ===== */
+@media (max-width: 768px) {
+  .contact-top {
+    flex-direction: column;
+  }
+
+  .contact-left img {
+    height: 250px;
+  }
+}
